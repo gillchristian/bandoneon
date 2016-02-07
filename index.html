@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>jcorddion</title>
+		<link rel='stylesheet' href='dist/css/jcorddion.css' type='text/css' />
+		<script type='text/javascript' src='dist/js/jquery.min.js'></script>
+    <script type='text/javascript' src='dist/js/jccordion.jquery.js'></script>
+		<script type="text/javascript">
+			// --- on document ready ---
+			$(function() {
+				$('.faq').jccordion({
+						opened: '.opened'
+				});
+			});
+		</script>
+	</head>
+	<body>
+		
+<div class='faq'>
+	
+	<div class='jccordion-heading'>Question 1</div>
+	<div class="jccordion-content">
+		Lorem ipsum dolor sit amet ...
+	</div>
+	
+	<div class='jccordion-heading'>Question 2</div>
+	<div class="jccordion-content opened">
+		Lorem ipsum dolor sit amet ...
+	</div>
+	
+	<div class='jccordion-heading'>Question 3</div>
+	<div class="jccordion-content">
+		Lorem ipsum dolor sit amet ...
+	</div>
+	
+</div>
+	</body>
+</html>
