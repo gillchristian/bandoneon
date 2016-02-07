@@ -1,0 +1,11 @@
+/**
+ *
+ * Consider adding this lines tou your own file
+ *
+ */
+.jccordion-content{
+	display: none;
+}
+.jccordion-heading {
+	cursor: pointer;
+}

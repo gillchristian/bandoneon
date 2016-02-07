@@ -2,12 +2,12 @@
 // this behaves as if within document.ready
 $(function() {
     
-    $.fn.accordion = function(options){
+    $.fn.jccordion = function(options){
         var settings = $.extend({
-            toggle: '.accordion-toggle',
-            content: '.accordion-content',
+            toggle: '.jccordion-heading',
+            content: '.jccordion-content',
             speed: 'fast',
-            event: 'click',
+            event: 'click'
         }, options);
         
         if (settings.opened) {
