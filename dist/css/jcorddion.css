@@ -6,7 +6,15 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #333;
-	background-color: #AAA;
+	background-color: #CCC;
+}
+ 
+a:hover,
+a:visited,
+a:link,
+afocus {
+	color: inherit;
+	text-decoration: none;
 }
  
 h1 {
@@ -18,6 +26,14 @@ h3 {
 	font-style: italic;
 	padding-bottom: 10px;
 	border-bottom: 1px dotted #333;
+}
+
+.faq {
+	margin: 50px auto;
+	width: 80%;
+	max-width: 500px;
+	padding: 20px;
+	background-color: #ab9ba9;
 }
 
 .nested{
@@ -34,27 +50,11 @@ h3 {
 }
 
 .jccordion-content{
-	/*
-	border: 1px solid coral;
-	border-radius: 5px;
-	*/
-	background-color: lightcoral;
+	background-color: #4c9689;
 	padding: 10px;
 }
 
 .jccordion-heading,
 .nested-jcorddion-heading {
 	cursor: pointer;
-}
-
-.faq {
-	margin: 50px auto;
-	width: 80%;
-	max-width: 500px;
-	/*
-	border: 1px solid blue;
-	border-radius: 5px;
-	*/
-	padding: 20px;
-	background-color: lightblue;
 }
