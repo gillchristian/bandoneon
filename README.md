@@ -41,10 +41,10 @@ $(function() {
 
 ###the css
 
-**IMPORTANT**: when usen different _content_ and _heading_ selectors (not the default ones), in order for the acorddion to work propperly you have to add these lines of CSS.
+**IMPORTANT**: when usen a different _content_ selector, in order for the acorddion to work propperly you have to add these lines of CSS.
 
 ```css
-.faq-content {
+<content-selector> {
 	display: none;
 }
 
