@@ -1,6 +1,6 @@
 #jcorddion
 
-Simple jQuery accordion plugin.
+Simple jQuery accordion plugin. [Demo!](http://gillchristian.github.io/jcorddion).
 
 ##installation
 
