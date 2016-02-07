@@ -4,7 +4,7 @@ Simple jQuery accordion plugin.
 
 ##installation
 
-Using bower import the script manually
+Using bower or import the script manually
 
 ```
 $ bower install jccordion

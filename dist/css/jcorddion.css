@@ -3,9 +3,58 @@
  * Consider adding this lines tou your own file
  *
  */
-.jccordion-content{
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #AAA;
+}
+ 
+h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+h3 {
+	font-style: italic;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #333;
+}
+
+.nested{
+	text-indent: 30px;
+}
+ 
+.jccordion-content,
+.nested-jccordion-content {
 	display: none;
 }
-.jccordion-heading {
+
+.nested-jccordion-content {
+	padding-left: 30px;
+}
+
+.jccordion-content{
+	/*
+	border: 1px solid coral;
+	border-radius: 5px;
+	*/
+	background-color: lightcoral;
+	padding: 10px;
+}
+
+.jccordion-heading,
+.nested-jcorddion-heading {
 	cursor: pointer;
+}
+
+.faq {
+	margin: 50px auto;
+	width: 80%;
+	max-width: 500px;
+	/*
+	border: 1px solid blue;
+	border-radius: 5px;
+	*/
+	padding: 20px;
+	background-color: lightblue;
 }

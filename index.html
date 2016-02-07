@@ -4,32 +4,40 @@
 		<link rel='stylesheet' href='dist/css/jcorddion.css' type='text/css' />
 		<script type='text/javascript' src='dist/js/jquery.min.js'></script>
     <script type='text/javascript' src='dist/js/jccordion.jquery.js'></script>
-		<script type="text/javascript">
-			// --- on document ready ---
-			$(function() {
-				$('.faq').jccordion({
-						opened: '.opened'
-				});
-			});
-		</script>
+		<script type="text/javascript" src='app.js'></script>
 	</head>
 	<body>
+
+<h1>jcorddion</h1>
 		
 <div class='faq'>
 	
-	<div class='jccordion-heading'>Question 1</div>
+	<h3 class='jccordion-heading'>Question 1</h3>
 	<div class="jccordion-content">
-		Lorem ipsum dolor sit amet ...
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ultricies nisi. Vivamus ac hendrerit massa, sit amet rhoncus orci. Donec non nunc placerat, dapibus urna a, sagittis quam. Curabitur velit justo, auctor non neque a, lobortis pretium arcu.
 	</div>
 	
-	<div class='jccordion-heading'>Question 2</div>
+	<h3 class='jccordion-heading'>Question 2</h3>
 	<div class="jccordion-content opened">
 		Lorem ipsum dolor sit amet ...
 	</div>
 	
-	<div class='jccordion-heading'>Question 3</div>
-	<div class="jccordion-content">
-		Lorem ipsum dolor sit amet ...
+	<h3 class='jccordion-heading'>Question 3 -- has nested accordion</h3>
+	<div class="jccordion-content nested">
+		<h3 class='nested-jcorddion-heading'>Nested Question 1</h3>
+		<div class="nested-jccordion-content">
+			Fusce varius, magna id ultrices porttitor, libero sem suscipit elit, vitae dignissim lacus est eu augue. Nam eget gravida erat. Curabitur vel lacinia dolor, sed efficitur dolor. Suspendisse potenti. Maecenas sodales id nisl eget fringilla. Nulla neque nibh, molestie sit amet gravida non, interdum blandit purus. Aenean suscipit odio at elit mollis pretium. In vulputate lacus dui, lobortis dictum sapien lobortis quis. Nam cursus ipsum a quam ullamcorper pulvinar.
+		</div>
+		
+		<h3 class='nested-jcorddion-heading'>Nested Question 2</h3>
+		<div class="nested-jccordion-content">
+			Aenean suscipit odio at elit mollis pretium. In vulputate lacus dui, lobortis dictum sapien lobortis quis. Nam cursus ipsum a quam ullamcorper pulvinar.
+		</div>
+		
+		<h3 class='nested-jcorddion-heading'>Nested Question 3</h3>
+		<div class="nested-jccordion-content">
+			Lorem ipsum dolor sit amet ...
+		</div>
 	</div>
 	
 </div>
