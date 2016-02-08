@@ -1,10 +1,10 @@
 #jcorddion
 
-Simple jQuery accordion plugin.
+Simple jQuery accordion plugin. [Demo & docs!](http://gillchristian.github.io/jcorddion).
 
 ##installation
 
-Using bower or import the script manually
+Using bower import the script manually
 
 ```
 $ bower install jccordion
@@ -41,10 +41,10 @@ $(function() {
 
 ###the css
 
-**IMPORTANT**: when usen different _content_ and _heading_ selectors (not the default ones), in order for the acorddion to work propperly you have to add these lines of CSS.
+**IMPORTANT**: when usen a different _content_ selector, in order for the acorddion to work propperly you have to add these lines of CSS.
 
 ```css
-.faq-content {
+<content-selector> {
 	display: none;
 }
 

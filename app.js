@@ -22,9 +22,16 @@ $(function() {
 	 */
 	$('button').on('click', function() {
 		var target = '#' + $(this).data('tab');
+		
+		$(this).addClass('selected');
+		$('button').not(this).each(function(){
+			$(this).removeClass('selected');
+		})
+		
 		$('.tab').each(function(){
 			$(this).hide();
 		});
+		
 		$(target).show();
 	});
 });
