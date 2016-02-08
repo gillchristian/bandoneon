@@ -5,7 +5,7 @@
  */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #333;
+	color: #414142;
 	background-color: #CCC;
 }
  
@@ -25,15 +25,15 @@ h1 {
 h3 {
 	font-style: italic;
 	padding-bottom: 10px;
-	border-bottom: 1px dotted #333;
+	border-bottom: 1px solid #CCC;
 }
 
 .faq {
 	margin: 50px auto;
 	width: 80%;
 	max-width: 500px;
-	padding: 20px;
-	background-color: #ab9ba9;
+	padding: 20px 20px 30px;
+	background-color: #f2f2f2;
 }
 
 .nested{
@@ -50,8 +50,8 @@ h3 {
 }
 
 .jccordion-content{
-	background-color: #4c9689;
-	padding: 10px;
+	background-color: lightyellow;
+	padding: 20px;
 }
 
 .jccordion-heading,
