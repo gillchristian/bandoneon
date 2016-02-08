@@ -6,7 +6,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #414142;
-	background-color: #CCC;
+	background-color: lightgray;
 }
  
 a:hover,
@@ -29,7 +29,7 @@ h3 {
 }
 
 .faq {
-	margin: 50px auto;
+	margin: 20px auto;
 	width: 80%;
 	max-width: 500px;
 	padding: 20px 20px 30px;
@@ -57,4 +57,57 @@ h3 {
 .jccordion-heading,
 .nested-jcorddion-heading {
 	cursor: pointer;
+}
+
+/*********************************************************/
+
+.container{
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+
+pre, code {
+	border-radius: 5px;
+	background-color: whitesmoke;
+	padding: 20px !important;
+}
+
+
+.tabs-nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.tabs-nav-container {
+	
+}
+
+.tabs-nav-container button {
+	margin: 5px;
+	border: none;
+	padding: 20px;
+	background-color: #f2f2f2;
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+.tabs-nav-container button:hover {
+	border: 2px solid #414142;
+}
+
+.tabs-nav-container button.selected {
+	background-color: lightyellow;
+}
+
+#docs {
+	display: none;
+}
+
+.tab {
+	background-color: #999;
+	padding: 20px;
+	margin: 10px; 
 }
