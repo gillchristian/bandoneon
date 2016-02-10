@@ -1,18 +1,18 @@
 // --- on document ready ---
 $(function() {
 	/**
-	 * jcorddion
+	 * bandoneon
 	 */
-	$('.faq').jccordion({
+	$('.faq').bandoneon({
 			opened: '.opened'
 	});
 	
-	$('.nested').jccordion({
-		toggle: '.nested-jcorddion-heading',
-		content: '.nested-jccordion-content'
+	$('.nested').bandoneon({
+		toggle: '.nested-bandoneon-heading',
+		content: '.nested-bandoneon-content'
 	});
 	
-	$('.nested-jcorddion-heading').on('click', function(){
+	$('.nested-bandoneon-heading').on('click', function(){
 		console.log('clicked');	
 	});
 	

@@ -2,10 +2,10 @@
 // this behaves as if within document.ready
 $(function() {
     
-    $.fn.jccordion = function(options){
+    $.fn.bandoneon = function(options){
         var settings = $.extend({
-            toggle: '.jccordion-heading',
-            content: '.jccordion-content',
+            toggle: '.bandoneon-heading',
+            content: '.bandoneon-content',
             speed: 'fast',
             event: 'click'
         }, options);

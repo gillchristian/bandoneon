@@ -1,22 +1,22 @@
-#jcorddion
+#bandoneon
 
-Simple jQuery accordion plugin. [Demo & docs!](http://gillchristian.github.io/jcorddion).
+Simple jQuery accordion plugin. [Demo & docs!](http://gillchristian.github.io/bandoneon).
 
 ##installation
 
 Using bower import the script manually
 
 ```
-$ bower install jccordion
+$ bower install bandoneon
 ```
 
 ##usage
 
-Include the jcorddion script, and make sure to includ jQuery first
+Include the bandoneon script, and make sure to includ jQuery first
 
 ```html
-	<script type='text/javascript' src='bower_components/jcorddion/dist/js/jquery.min.js'></script>
-	<script type='text/javascript' src='bower_components/jcorddion/dist/js/jcorddion.jquery.js'></script>
+	<script type='text/javascript' src='bower_components/bandoneon/dist/js/jquery.min.js'></script>
+	<script type='text/javascript' src='bower_components/bandoneon/dist/js/bandoneon.jquery.js'></script>
 ```
 
 If you are using the default _heading_ and _content_ selectors include the CSS file. Or add your own.

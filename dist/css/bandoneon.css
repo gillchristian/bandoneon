@@ -40,22 +40,22 @@ h3 {
 	text-indent: 30px;
 }
  
-.jccordion-content,
-.nested-jccordion-content {
+.bandoneon-content,
+.nested-bandoneon-content {
 	display: none;
 }
 
-.nested-jccordion-content {
+.nested-bandoneon-content {
 	padding-left: 30px;
 }
 
-.jccordion-content{
+.bandoneon-content{
 	background-color: lightyellow;
 	padding: 20px;
 }
 
-.jccordion-heading,
-.nested-jcorddion-heading {
+.bandoneon-heading,
+.nested-bandoneon-heading {
 	cursor: pointer;
 }
 
