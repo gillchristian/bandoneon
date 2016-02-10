@@ -1,10 +1,10 @@
 {
-  "name": "jcorddion",
+  "name": "bandoneon",
   "authors": [
     "gillchristian <gillchristiang@gmail.com>"
   ],
-  "description": "simple jquery acorddion",
-  "main": "dist/js/jccordion.jquery.js",
+  "description": "simple jquery accordion",
+  "main": "dist/js/bandoneon.jquery.js",
   "moduleType": [
     "globals"
   ],
@@ -15,7 +15,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "homepage": "gillchristian.github.io/jcorddion",
+  "homepage": "gillchristian.github.io/bandoneon",
   "ignore": [
     "**/.*",
     "node_modules",

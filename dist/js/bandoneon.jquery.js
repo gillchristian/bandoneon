@@ -2,10 +2,10 @@
 // this behaves as if within document.ready
 $(function() {
     
-    $.fn.jccordion = function(options){
+    $.fn.bandoneon = function(options){
         var settings = $.extend({
-            toggle: '.jccordion-heading',
-            content: '.jccordion-content',
+            toggle: '.bandoneon-heading',
+            content: '.bandoneon-content',
             speed: 'fast',
             event: 'click'
         }, options);
@@ -14,7 +14,7 @@ $(function() {
             this.find(settings.content + settings.opened).show();
         }
         
-        return this.each(function accordionFn() {
+        return this.each(function bandoneonFn() {
             $(this).find(settings.toggle).on(settings.event ,function(){
                 var $self = $(this);
                 var $next = $self.next();
