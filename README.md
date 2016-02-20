@@ -1,4 +1,4 @@
-#bandoneon
+#bandoneon [![PRs Welcome](https://img.shields.io/badge/prs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Simple jQuery accordion plugin. [Demo & docs!](http://gillchristian.github.io/bandoneon).
 
